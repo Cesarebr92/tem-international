@@ -17,7 +17,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 let urlDB;
 if ( process.env.NODE_ENV === 'dev'){
 
-    urlDB = 'mongodb://cesareAdminUser:C24j73a52a17.@localhost:27017/Crypto?authSource=admin';
+    urlDB = 'mongodb://localhost:27017/Crypto';
 
 }
 else {
